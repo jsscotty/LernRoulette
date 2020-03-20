@@ -5,7 +5,7 @@ Django-Implementierung von LernRoulette
 ## Entwicklungsumgebung
 Benötigt:
   - python3
-  - virtualenv (pip3 install virtualenv)
+  - virtualenv (`pip3 install virtualenv`)
 Erstellt euch ein virtualenv um die Requirements besser zu managen: `virtualenv <folder_name>`
 Danach `source <foldername>/bin/activate.sh` (bzw. zsh, fish, je nach gewählter Shell)
 
@@ -16,4 +16,4 @@ Wenn neue Requirements hinzukommen (via pip3 install ...):
 `pip3 freeze > requirements.txt`
 
 ## Testserver starten
-python manager.py runserver
+`python manage.py runserver`
